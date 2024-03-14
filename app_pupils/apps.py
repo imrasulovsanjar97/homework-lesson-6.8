@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class WeekdaysConfig(AppConfig):
+class AppPupilsConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'weekdays'
+    name = 'app_pupils'

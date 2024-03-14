@@ -1,0 +1,6 @@
+6.4-dars: HTML va CSS
+6.5-dars: Bootstrap
+6.6-dars: Javascript
+6.7-dars. Introduction to Django
+6.8-dars: Django - views & urls
+6.9-dars: Templates and Static Files

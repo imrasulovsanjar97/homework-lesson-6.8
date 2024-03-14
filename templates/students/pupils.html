@@ -1,0 +1,21 @@
+{% extends 'students/base.html'  %}
+
+{% block title %}
+    Pupils
+{% endblock %}
+
+{% block content %}
+    <h1>Pupils</h1>
+    
+    <table style="border-collapse: collapse;width: 40%;">
+    <tr>
+        <th style="border: 1px solid black;padding: 8px;">Pupils_Fullname</th></tr>
+        {% for pupil in oquvchi %}
+        <tr>
+            <td style="border: 1px solid black;padding: 8px;" ><a href="{% url 'ball' %}">{{ pupil }}</a></td></tr>
+            
+        {% endfor %}
+        
+    </table>
+
+{% endblock %}

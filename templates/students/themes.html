@@ -1,0 +1,15 @@
+{% extends 'students/base.html'  %}
+
+{% block title %}
+    Themes
+{% endblock %}
+
+{% block content %}
+    <h1>Themes</h1>
+    <ul>
+        {% for dars in darslar %}
+            <li>{{ dars }}</li>
+        {% endfor %}
+    </ul> 
+
+{% endblock %}
